@@ -14,16 +14,28 @@
     <section class="to-do-container">
         <h1>Lista de tarefas</h1>
         <form class="list">
-            <ul class="task-list">
-                <li class="task checked">
-                    <input type="checkbox" class="checkbox">
-                    Lorem ipsum dolor sit amet.
-                    <span class="close">X</span>
+            <ul class="task-list" data-list="list">
+                <!-- <li class="task" data-task="task">
+                    <input type="checkbox" class="checkbox" data-task="check" checked>
+                    <p>Aqui vai uma task 1</p>
+                    <span class="close" data-task="delete">X</span>
                 </li>
+
+                <li class="task" data-task="task">
+                    <input type="checkbox" class="checkbox" data-task="check">
+                    <p>Aqui vai uma task 2</p>
+                    <span class="close" data-task="delete">X</span>
+                </li>
+
+                <li class="task" data-task="task">
+                    <input type="checkbox" class="checkbox" data-task="check">
+                    <p>Aqui vai uma task 3</p>
+                    <span class="close" data-task="delete">X</span>
+                </li> -->
             </ul>
         </form>
         <form class="add">
-            <input type="text" name="tarefa" id="tarefa" placeholder="Nova tarefa">
+            <input type="text" name="tarefa" id="tarefa" placeholder="Nova tarefa" data-input="text">
             <button>Adicionar</button>
         </form>
     </section>

@@ -49,6 +49,7 @@ h1 {
   grid-template-columns: 1.5rem 1fr 1.5rem;
   align-items: center;
   gap: 20px;
+  opacity: 1;
 }
 
 .task.checked {
@@ -58,7 +59,7 @@ h1 {
 .checkbox {
   width: 1.5rem;
   height: 1.5rem;
-  border-radius: 50%;
+
   overflow: hidden;
   display: block;
 }
